@@ -1,0 +1,8 @@
+Package: cglm
+Version: 0.9.4
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 6c9d55019cf84fb3eee0ea3964e6fd5262a0edd429eb762df1e9fdc6e3ecf4b0
+Description: Highly Optimized Graphics Math (glm) for C
+Status: install ok installed

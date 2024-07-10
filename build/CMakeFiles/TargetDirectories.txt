@@ -1,0 +1,3 @@
+C:/Users/James/Documents/Code/C/zaptek/build/CMakeFiles/zaptek.dir
+C:/Users/James/Documents/Code/C/zaptek/build/CMakeFiles/edit_cache.dir
+C:/Users/James/Documents/Code/C/zaptek/build/CMakeFiles/rebuild_cache.dir

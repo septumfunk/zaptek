@@ -1,0 +1,15 @@
+# ninja log v6
+20	279	7422855909345732	CMakeFiles/zaptek.dir/src/main.c.obj	95358a67b3a088b1
+37	1203	7422846464792265	zaptek.exe	88652fafdfa28669
+31	352	7422855909460683	CMakeFiles/zaptek.dir/src/graphics/display.c.obj	e7aa27ea3740df54
+38	327	7422856779220885	CMakeFiles/zaptek.dir/src/input/keyboard.c.obj	9ee031e634c6e017
+328	1574	7422856782125655	zaptek.exe	95c7464b72f02fe4
+6	336	7422858004944111	CMakeFiles/zaptek.dir/src/graphics/display.c.obj	e7aa27ea3740df54
+338	1691	7422858008269348	zaptek.exe	95c7464b72f02fe4
+6	259	7422858205861985	CMakeFiles/zaptek.dir/src/graphics/display.c.obj	e7aa27ea3740df54
+260	1605	7422858208406902	zaptek.exe	95c7464b72f02fe4
+39	318	7422858488010069	CMakeFiles/zaptek.dir/src/graphics/display.c.obj	e7aa27ea3740df54
+319	1442	7422858490810034	zaptek.exe	95c7464b72f02fe4
+35	337	7422858993317520	CMakeFiles/zaptek.dir/src/graphics/display.c.obj	e7aa27ea3740df54
+47	352	7422858993441141	CMakeFiles/zaptek.dir/src/input/keyboard.c.obj	9ee031e634c6e017
+352	1504	7422858996497103	zaptek.exe	95c7464b72f02fe4
