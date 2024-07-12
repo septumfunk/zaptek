@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.29)
 project(zaptek)
 
 set(CMAKE_C_STANDARD 17)
+set(CMAKE_C_COMPILER clang)
 
 add_executable(${PROJECT_NAME}
     src/main.c
