@@ -134,10 +134,10 @@ typedef enum key {
 void glfw_keyboard_callback(GLFWwindow* window, int key, int scancode, int action, int mods);
 
 /// Checks if key has been pressed this frame.
-bool zt_is_key_pressed(key key);
+bool is_key_pressed(key key);
 
 /// Checks if key is currently held down.
-bool zt_is_key_down(GLFWwindow *handle, key key);
+bool is_key_down(GLFWwindow *handle, key key);
 
 /// Resets all keys. Call this at the end of every frame before polling events.
-void zt_keys_reset();
+void keys_reset();

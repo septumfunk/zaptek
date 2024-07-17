@@ -1,9 +1,14 @@
 #include <graphics/display.h>
+#include <stdio.h>
+#include "input/keyboard.h"
+#include "io/files.h"
+#include "util/vector.h"
 
 int main() {
-    zt_display display = zt_display_create("Test Window", 800, 600);
-    while (zt_display_loop(&display)) {
-        zt_display_swap(&display);
+    Display display = create_display("Test Window", 800, 600);
+    while (display_loop(&display)) {
+
+       display_swap(&display);
     }
     return 0;
 }

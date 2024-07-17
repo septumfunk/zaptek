@@ -3,12 +3,16 @@
 #include <graphics/opengl.h>
 
 /// A shader's structure. Contains the individual shaders, and their program.
-typedef struct zt_shader {
+typedef struct Shader {
     GLuint program;
     GLuint vertex;
     GLuint fragment;
-} zt_shader;
+} Shader;
 
 /// Creates a Zaptek shader struct.
 /// This struct uses dynamic memory allocation. Please remember to call the corresponding cleanup method.
-zt_shader zt_shader_create();
+Shader create_shader(const char *path);
+
+/// Destroys a Zaptek shader struct.
+/// Clears dynamic memory.
+void destroy_shader(Shader shader);

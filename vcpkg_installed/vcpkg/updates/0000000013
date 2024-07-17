@@ -1,6 +1,6 @@
-Package: glad
-Feature: loader
+Package: vcpkg-cmake
+Version: 2024-04-23
 Architecture: x64-windows
 Multi-Arch: same
-Description: Generate loader logic.
-Status: install ok installed
+Abi: f4706961e4e16cb5d226b0fd4ec1a9eb8df7dcd1f59ef0e94009a2c2e56489d4
+Status: purge ok not-installed

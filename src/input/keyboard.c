@@ -9,14 +9,14 @@ void glfw_keyboard_callback(GLFWwindow* window, int key, int scancode, int actio
         keys_pressed[key] = false;
 }
 
-bool zt_is_key_pressed(key key) {
+bool is_key_pressed(key key) {
     return keys_pressed[key];
 }
 
-bool zt_is_key_down(GLFWwindow *handle, key key) {
+bool is_key_down(GLFWwindow *handle, key key) {
     return glfwGetKey(handle, key) == GLFW_PRESS;
 }
 
-void zt_keys_reset() {
+void keys_reset() {
     memset(keys_pressed, 0, KEY_COUNT);
 }
